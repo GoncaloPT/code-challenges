@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Chapter5Test" time="0.006" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\codigo\java-playground\Java8LambdasBook\target\test-classes;D:\codigo\java-playground\Java8LambdasBook\target\classes;C:\Users\silvagc\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\silvagc\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;C:\Users\silvagc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\silvagc\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\silvagc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\silvagc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\silvagc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\silvagc\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\silvagc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PT"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\openjdk-11.0.5_10\bin"/>
+    <property name="sun.java.command" value="C:\Users\silvagc\AppData\Local\Temp\surefire6578556985942229753\surefirebooter2791284223886470975.jar C:\Users\silvagc\AppData\Local\Temp\surefire6578556985942229753 2020-03-05T13-45-26_108-jvmRun1 surefire11958480267391948350tmp surefire_04658378921399254178tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\codigo\java-playground\Java8LambdasBook\target\test-classes;D:\codigo\java-playground\Java8LambdasBook\target\classes;C:\Users\silvagc\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\silvagc\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;C:\Users\silvagc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\silvagc\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\silvagc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\silvagc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\silvagc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\silvagc\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\silvagc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\silvagc"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\OpenJDK\openjdk-11.0.5_10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\codigo\java-playground\Java8LambdasBook"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\silvagc\AppData\Local\Temp\surefire6578556985942229753\surefirebooter2791284223886470975.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.5+10"/>
+    <property name="user.name" value="silvagc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\silvagc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\silvagc\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="D:\codigo\java-playground\Java8LambdasBook"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\OpenJDK\openjdk-11.0.5_10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\software\cmder_mini\bin;D:\software\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;D:\software\cmder_mini\vendor\conemu-maximus5;D:\software\cmder_mini\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\software\Bitvise SSH Client;D:\software\Yarn\bin\;D:\software\apache-maven\bin;D:\software\PostgreSQL\pg96\bin;d:\software\Cloud Foundry;D:\software\PuTTY\;D:\software\Notepad++\;D:\software\kompose\;C:\Program Files\dotnet\;D:\software\php-7.2.11-nts-Win32-VC15-x64\;D:\software\minikube\;D:\software\VirtualBox\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\;D:\software\Brackets\command;D:\software\Amazon\AWSCLI\bin\;C:\WINDOWS\System32\OpenSSH\;d:\software\Git\cmd;d:\software\Git\mingw64\bin;d:\software\Git\usr\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\software\nodejs\;D:\software\Java\jdk-13.0.2\bin;D:\software\Python37-32\Scripts\;D:\software\Python37-32\;C:\Users\silvagc\AppData\Local\Microsoft\WindowsApps;d:\software\Microsoft VS Code\bin;C:\Users\silvagc\AppData\Local\Yarn\bin;D:\software\openshift-origin-client-tools-v3.9.0-191fece-windows\;C:\Program Files\heroku\bin;D:\software\VirtualBox;d:\softwareNmap;D:\software\Microsoft VS Code\bin;C:\Program Files (x86)\cwRsync_5.4.1_x86_Free\;C:\Users\silvagc\.dotnet\tools;D:\software\minikube\;D:\software\helm\;D:\software\amazon\;D:\software\nuget\;d:\software\heroku\bin;D:\software\plantuml\plantuml.jar;D:\software\terraform_0.12.13_windows_amd64;C:\Users\silvagc\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA Community Edition%;D:\software\cockroach-v19.2.1.windows-6.2-amd64;C:\Users\silvagc\AppData\Roaming\npm;d:\software\Git\usr\bin;d:\software\Git\usr\share\vim\vim74;D:\software\cmder_mini\;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCollector" classname="Chapter5Test" time="0"/>
+  <testcase name="testCollectorB" classname="Chapter5Test" time="0"/>
+</testsuite>
