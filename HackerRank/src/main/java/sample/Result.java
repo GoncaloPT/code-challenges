@@ -37,6 +37,8 @@ public class Result {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
+
+
             int arrCount = Integer.parseInt(bufferedReader.readLine().trim());
 
             List<Integer> arr = IntStream.range(0, arrCount).mapToObj(i -> {

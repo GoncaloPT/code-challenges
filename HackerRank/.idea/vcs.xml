@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/reactive-spring-cockroach-chat" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spring-cloud-stream" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/test" vcs="Git" />
   </component>
 </project>

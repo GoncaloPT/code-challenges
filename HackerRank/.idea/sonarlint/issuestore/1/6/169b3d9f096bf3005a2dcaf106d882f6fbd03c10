@@ -1,0 +1,8 @@
+
+L
+java:S1481"/Remove this unused "startIndex" local variable.(ùâ×‹8™•ß¤ .
+[
+java:S1854">Remove this useless assignment to local variable "startIndex".(ùâ×‹8åŞÜœŸ.
+Š
+java:S3008"mRename this field "ONE_OR_MORE_REPEATED_CHARS_PATTERN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É–ä8´ÙœŸ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Õƒã*8×éßœŸ.
