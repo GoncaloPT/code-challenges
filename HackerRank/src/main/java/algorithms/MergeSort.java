@@ -6,6 +6,8 @@ import java.util.stream.IntStream;
 /*
  * Create by: @author silvagc
  * 04/05/2020
+ * MergeSort divides to be able to sort
+ * 
  */
 public class MergeSort {
 

@@ -19,3 +19,7 @@ Jsrc/test/java/interviewprepkit/dictionariesandhashmaps/TwoStringsTest.java,2\1
 Ssrc/test/java/interviewprepkit/dictionariesandhashmaps/SherlockAndAnagramsTest.java,2\2\223aa819624d8633638d6ea7c95f9d285740efd8
 
 Osrc/main/java/interviewprepkit/dictionariesandhashmaps/SherlockAndAnagrams.java,1\6\169b3d9f096bf3005a2dcaf106d882f6fbd03c10
+}
+Msrc/test/java/interviewprepkit/dictionariesandhashmaps/CountTripletsTest.java,4\9\49bf540d03bbb3415cb90f04719f8efa0a6ba9cf
+y
+Isrc/main/java/interviewprepkit/dictionariesandhashmaps/CountTriplets.java,5\a\5ad5343991db76f7651cd7c1bd47c030ef96d373

@@ -1,6 +1,6 @@
 
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(³ø­¹þÿÿÿÿ
 Y
 java:S2251,"C"sizeOfInput" is incremented and will never reach "stop condition".(°Ý¿Ä
 8
 java:S2189,""Correct this loop's end condition.(°Ý¿Ä
-S	java:S1062"9Replace this use of System.out or System.err by a logger.(³ø­¹þÿÿÿÿ
