@@ -1,1 +1,3 @@
-goncalo\designpatterns\flywheight\Color.class
+goncalo\designpatterns\flyweight\Color.class
+goncalo\designpatterns\flyweight\PaintBucket.class
+goncalo\designpatterns\flyweight\PaintStore.class
