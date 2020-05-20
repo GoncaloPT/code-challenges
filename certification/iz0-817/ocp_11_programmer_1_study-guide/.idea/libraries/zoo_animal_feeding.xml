@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="zoo.animal.feeding">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/modules_chapter/mods/zoo.animal.feeding.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
