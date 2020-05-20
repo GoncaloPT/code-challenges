@@ -4,7 +4,8 @@
 The goal of this POC is to try microprofile project  
 https://github.com/eclipse/microprofile
 
-1. Develop and exposed a simple web API
+Objective list:  
+1. Develop and exposed a simple web API ✅
 1. Introduce swagger
 1. Run locally using Payara
 1. Containerize
