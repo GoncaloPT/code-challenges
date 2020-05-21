@@ -28,6 +28,12 @@
             <version>1.18.12</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.microprofile-ext.openapi-ext</groupId>
+            <artifactId>openapi-ui</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+
         <!-- test section begins -->
         <dependency>
             <groupId>org.mockito</groupId>
