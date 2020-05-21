@@ -6,7 +6,8 @@ https://github.com/eclipse/microprofile
 
 Objective list:  
 1. Develop and exposed a simple web API ✅
-1. Introduce swagger
+1. Describe using Open API 3 ✅
+1. Introduce swaggerUI
 1. Run locally using Payara maven plugin ✅
 1. Containerize
 

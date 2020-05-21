@@ -3,6 +3,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import pt.goncalo.microprofilefirsttryout.model.Person;
+import pt.goncalo.microprofilefirsttryout.util.RandomProvider;
 
 import java.util.Random;
 
@@ -17,12 +18,14 @@ class LocalMemoryPersonRepositoryTest {
 
 
     private Random randomMock = mock(Random.class);
+    private RandomProvider rPMock = mock(RandomProvider.class);
 
     @ParameterizedTest
     @CsvSource("Gonçalo,32")
     void find(String name, int age) {
         when(randomMock.nextInt(99)).thenReturn(age-10);
-        LocalMemoryPersonRepository repo = new LocalMemoryPersonRepository(randomMock);
+        when(rPMock.build()).thenReturn(randomMock);
+        LocalMemoryPersonRepository repo = new LocalMemoryPersonRepository(rPMock);
 
         Person result = repo.find(name);
         Person expectedResult = Person.builder().age(age).name(name).id(result.getId()).build();

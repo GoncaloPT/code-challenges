@@ -4,11 +4,13 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import pt.goncalo.microprofilefirsttryout.model.Person;
+import pt.goncalo.microprofilefirsttryout.util.RandomProvider;
 
 import javax.enterprise.context.ApplicationScoped;
 import java.util.List;
 import java.util.Random;
 import java.util.UUID;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -20,16 +22,17 @@ import java.util.stream.Stream;
 @RequiredArgsConstructor
 @Log
 public class LocalMemoryPersonRepository implements PersonRepository {
-    private final Random r;
+    // Not the ideal way of using ThreadLocalRandom. current() should be called when
+    private final RandomProvider randomProvider;
     private static final String MY_NAME = "Gonçalo";
     public LocalMemoryPersonRepository(){
-        this.r = new Random();
+        this.randomProvider = new RandomProvider();
     }
 
 
     @Override
     public Person find(String name) {
-        return Person.builder().name(name).id(UUID.randomUUID().toString()).age(10+r.nextInt(99)).build();
+        return Person.builder().name(name).id(UUID.randomUUID().toString()).age(10+randomProvider.build().nextInt(99)).build();
     }
 
     @Override
@@ -46,7 +49,7 @@ public class LocalMemoryPersonRepository implements PersonRepository {
     public List<Person> list() {
 
         return Stream.generate(() -> find("OneMore"))
-                .limit(1L + r.nextInt(30))
+                .limit(1L + randomProvider.build().nextInt(30))
                 .collect(Collectors.toList());
     }
 }
