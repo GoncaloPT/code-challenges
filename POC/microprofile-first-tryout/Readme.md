@@ -9,7 +9,7 @@ Objective list:
 1. Describe using Open API 3 ✅
 1. Introduce swaggerUI ✅
 1. Run locally using Payara maven plugin ✅
-1. Containerize
+1. Containerize ✅
 
 ## Application server
 To run the application Payara application server  
@@ -19,8 +19,15 @@ https://docs.payara.fish/docs/5.201/README.html
 
 - Run application locally using payara  
 `mvn clean package payara-micro:bundle && mvn payara-micro:start`  
+
+- Run on local docker container
+from the root folder:
+`` docker container run -p 8080:9080 9cfdfd96fb0e ``
+
+- test liveliness  
 You should now have a 200 OK json response from:  
 GET http://localhost:8080/microprofile/person/
+
 
 - Check openapi yaml file  
 http://localhost:8080/openapi

@@ -17,6 +17,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.Objects;
+
 import static javax.ws.rs.core.Response.Status.BAD_REQUEST;
 
 /*
@@ -51,7 +53,7 @@ public class PersonService {
             @APIResponse(responseCode = "400", description = "Say again?!")
     })
     public Response get(@PathParam("id") String id) {
-        if(id == null || id.isEmpty()){
+        if(Objects.isNull(id) || id.isEmpty()){
             return Response.status(BAD_REQUEST).build();
         }
         Person p = repository.get(id);

@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * 21/05/2020
  * This factory purpose is to enable mocking of random, while still using ThreadLocalRandom.current()
  */
-public class RandomProvider {
+public final class RandomProvider {
 
     public Random build(){
         return ThreadLocalRandom.current();
