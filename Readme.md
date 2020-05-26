@@ -2,11 +2,11 @@
 This parent repository holds poc, code challenges and other java related test projects
 
 
-##Code challanges
+## Code challanges
 HackerRank 
 https://github.com/GoncaloPT/java-playground/tree/master/CodeChallenges
 
-##POC
+## POC
 
 Microprofile + payara  
 https://github.com/GoncaloPT/java-playground/tree/master/POC/microprofile-first-tryout
