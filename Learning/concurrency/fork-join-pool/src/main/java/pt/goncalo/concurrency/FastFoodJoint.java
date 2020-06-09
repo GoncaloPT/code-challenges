@@ -23,9 +23,6 @@ public class FastFoodJoint {
 
     public static void main(String [] args){
         Kitchen kitchen = new Kitchen();
-
-
-
         final int repeatCount = Integer.decode(args[0]);
         long counts;
         long startTime;
@@ -55,7 +52,7 @@ public class FastFoodJoint {
 
         for (int i = 0; i < repeatCount; i++) {
             startTime = System.currentTimeMillis();
-            counts = kitchen.submitParallelOrder(Menu.HOUSE_BURGER);
+            counts = kitchen.submitExecutorServiceOrder(Menu.HOUSE_BURGER);
             stopTime = System.currentTimeMillis();
             executorThreadTimes[i] = (stopTime - startTime);
             System.out.println(counts + " , ExecutorService  kitchen took " + executorThreadTimes[i] + "ms");
@@ -63,7 +60,7 @@ public class FastFoodJoint {
 
         System.out.println("Single thread average = " + LongStream.of(singleThreadTimes).sum() /repeatCount);
         System.out.println("ForkJoin thread average = " + LongStream.of(forkedThreadTimes).sum() / repeatCount);
-        System.out.println("ForkJoin thread average = " + LongStream.of(executorThreadTimes).sum() / repeatCount);
+        System.out.println("ExecutorService thread average = " + LongStream.of(executorThreadTimes).sum() / repeatCount);
     }
 
 
