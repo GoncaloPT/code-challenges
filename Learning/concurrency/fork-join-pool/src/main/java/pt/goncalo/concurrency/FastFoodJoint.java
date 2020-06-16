@@ -1,10 +1,13 @@
 package pt.goncalo.concurrency;
 
-import pt.goncalo.concurrency.restaurant.Kitchen;
-import pt.goncalo.concurrency.restaurant.menu.Menu;
+import pt.goncalo.concurrency.restaurant.KitchenStrategy;
+import pt.goncalo.concurrency.restaurant.kitchen.ExecutorKitchen;
+import pt.goncalo.concurrency.restaurant.kitchen.ForkJoinKitchen;
+import pt.goncalo.concurrency.restaurant.kitchen.Kitchen;
+import pt.goncalo.concurrency.restaurant.kitchen.OneManKitchen;
+import pt.goncalo.concurrency.restaurant.menu.MenuEntry;
+import pt.goncalo.concurrency.restaurant.menu.Order;
 
-import java.util.concurrent.ForkJoinPool;
-import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 /*
@@ -22,7 +25,7 @@ public class FastFoodJoint {
 
 
     public static void main(String [] args){
-        Kitchen kitchen = new Kitchen();
+
         final int repeatCount = Integer.decode(args[0]);
         long counts;
         long startTime;
@@ -32,30 +35,41 @@ public class FastFoodJoint {
         long[] forkedThreadTimes = new long[repeatCount];
         long[] executorThreadTimes = new long[repeatCount];
 
+        Order order = Order.
+                of(
+                        MenuEntry.HOUSE_BURGER,
+                        MenuEntry.CHEESE_BURGER,
+                        MenuEntry.HOTDOG_MENU
+                );
 
+//        for (int i = 0; i < repeatCount; i++) {
+//            KitchenStrategy kitchen = new OneManKitchen();
+//            startTime = System.currentTimeMillis();
+//
+//            counts = kitchen.submitOrder(order);
+//            stopTime = System.currentTimeMillis();
+//            singleThreadTimes[i] = (stopTime - startTime);
+//            System.out.println(i + " , single thread kitchen took " + singleThreadTimes[i] + "ms");
+//        }
+        System.out.println("**************************************************************");
 
         for (int i = 0; i < repeatCount; i++) {
+            KitchenStrategy kitchen = new ExecutorKitchen();
             startTime = System.currentTimeMillis();
-            counts = kitchen.submitOrder(Menu.HOUSE_BURGER);
-            stopTime = System.currentTimeMillis();
-            singleThreadTimes[i] = (stopTime - startTime);
-            System.out.println(counts + " , single thread kitchen took " + singleThreadTimes[i] + "ms");
-        }
-
-        for (int i = 0; i < repeatCount; i++) {
-            startTime = System.currentTimeMillis();
-            counts = kitchen.submitParallelOrder(Menu.HOUSE_BURGER);
-            stopTime = System.currentTimeMillis();
-            forkedThreadTimes[i] = (stopTime - startTime);
-            System.out.println(counts + " , ForkJoin thread kitchen took " + forkedThreadTimes[i] + "ms");
-        }
-
-        for (int i = 0; i < repeatCount; i++) {
-            startTime = System.currentTimeMillis();
-            counts = kitchen.submitExecutorServiceOrder(Menu.HOUSE_BURGER);
+            counts = kitchen.submitOrder(order);
             stopTime = System.currentTimeMillis();
             executorThreadTimes[i] = (stopTime - startTime);
-            System.out.println(counts + " , ExecutorService  kitchen took " + executorThreadTimes[i] + "ms");
+            System.out.println(i + " , ExecutorService  kitchen took " + forkedThreadTimes[i] + "ms");
+        }
+        System.out.println("**************************************************************");
+        for (int i = 0; i < repeatCount; i++) {
+            KitchenStrategy kitchen = new ForkJoinKitchen();
+            startTime = System.currentTimeMillis();
+            counts = kitchen.submitOrder(order);
+            stopTime = System.currentTimeMillis();
+            forkedThreadTimes[i] = (stopTime - startTime);
+
+            System.out.println(i + " ,  ForkJoin kitchen took " + executorThreadTimes[i] + "ms");
         }
 
         System.out.println("Single thread average = " + LongStream.of(singleThreadTimes).sum() /repeatCount);

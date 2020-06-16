@@ -17,7 +17,9 @@ public enum Ingredient implements Preparable{
     CHIPS(Duration.ofSeconds(5)),
     BURGER(Duration.ofSeconds(10)),
     CHEESE(Duration.ofMillis(100)),
-    ONIONS(Duration.ofMillis(500));
+    ONIONS(Duration.ofMillis(500)),
+    SAUSAGE(Duration.ofMillis(500));
+
     private final Duration preparation;
 
 
