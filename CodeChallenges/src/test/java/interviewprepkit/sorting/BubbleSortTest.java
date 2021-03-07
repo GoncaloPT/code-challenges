@@ -24,7 +24,7 @@ public class BubbleSortTest {
     public void countSwapsTest(int[] input, String expectedOutput) {
         new BubbleSort(new PrintStream(outputStream)).countSwaps(input);
         assertEquals(expectedOutput, outputStream.toString());
-Integer.compare()
+
     }
 
 

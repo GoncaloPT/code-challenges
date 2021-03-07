@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="987fea58-ad32-4b69-9246-c19c370fbe12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CodeChallenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodeChallenges.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/DesignPatterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/src/main/java/goncalo/designpatterns/flyweight/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/src/main/java/goncalo/designpatterns/structural/flyweight/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/src/main/java/goncalo/designpatterns/flyweight/PaintBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/src/main/java/goncalo/designpatterns/structural/flyweight/PaintBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/src/main/java/goncalo/designpatterns/flyweight/PaintStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/src/main/java/goncalo/designpatterns/structural/flyweight/PaintStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/src/test/java/goncalo/designpatterns/flyweight/PaintStoreTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/src/test/java/goncalo/designpatterns/structural/flyweight/PaintStoreTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/DesignPatterns-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/DesignPatterns-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/classes/goncalo/designpatterns/flyweight/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/classes/goncalo/designpatterns/flyweight/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/classes/goncalo/designpatterns/flyweight/PaintBucket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/classes/goncalo/designpatterns/flyweight/PaintBucket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/classes/goncalo/designpatterns/flyweight/PaintStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/classes/goncalo/designpatterns/flyweight/PaintStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/classes/goncalo/designpatterns/flywheight/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/test-classes/goncalo/designpatterns/flyweight/PaintStoreTest$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/test-classes/goncalo/designpatterns/flyweight/PaintStoreTest$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DesignPatterns/target/test-classes/goncalo/designpatterns/flyweight/PaintStoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatterns/target/test-classes/goncalo/designpatterns/flyweight/PaintStoreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/interviewprepkit/sorting/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interviewprepkit/sorting/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/FreeRoam/FreeRoam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/FreeRoam/FreeRoam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Learning/FreeRoam/src/pt/goncalo/freeroam/immutable/wrong/WrongHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Learning/FreeRoam/src/pt/goncalo/freeroam/immutable/wrong/WrongHashMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +21,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="dev-dsmp/master-cnap-00-mp-dev2-bmwgroup-net:8443/qxz15cw" />
+    <option name="namespace" value="dev-dsmp" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1XJSGBSsso22L8zdAeivrUYC9Bu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,8 +49,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -59,6 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="strings" />
+      <recent name="codingame" />
       <recent name="interviewprepkit.sorting" />
       <recent name="interviewprepkit.dictionariesandhashmaps" />
       <recent name="interviewprepkit.array" />
@@ -70,7 +77,20 @@
       <recent name="D:\codigo\java-playground\HackerRank\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest.countSwapsTest">
+  <component name="RunManager" selected="JUnit.PalindromeTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BubbleSortTest.countSwapsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeChallenges" />
       <extension name="coverage">
@@ -87,80 +107,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTripletsTest.countTripletsAttempt2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewprepkit.dictionariesandhashmaps.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interviewprepkit.dictionariesandhashmaps" />
-      <option name="MAIN_CLASS_NAME" value="interviewprepkit.dictionariesandhashmaps.CountTripletsTest" />
-      <option name="METHOD_NAME" value="countTripletsAttempt2Test(int,[Ljava.lang.Long;,long)" />
+      <option name="PACKAGE_NAME" value="strings" />
+      <option name="MAIN_CLASS_NAME" value="strings.PalindromeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringSplitTest.shouldPrintCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingame" />
+      <option name="MAIN_CLASS_NAME" value="codingame.StringSplitTest" />
+      <option name="METHOD_NAME" value="shouldPrintCorrectly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTripletsTest.countTripletsPerformanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringSplitTest.shouldPrintCorrectly2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewprepkit.dictionariesandhashmaps.*" />
+          <option name="PATTERN" value="codingame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interviewprepkit.dictionariesandhashmaps" />
-      <option name="MAIN_CLASS_NAME" value="interviewprepkit.dictionariesandhashmaps.CountTripletsTest" />
-      <option name="METHOD_NAME" value="countTripletsPerformanceTest(int,[Ljava.lang.Long;,long)" />
+      <option name="PACKAGE_NAME" value="codingame" />
+      <option name="MAIN_CLASS_NAME" value="codingame.StringSplitTest" />
+      <option name="METHOD_NAME" value="shouldPrintCorrectly2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyQueriesTest.freqQueryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="strings in CodeChallenges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewprepkit.dictionariesandhashmaps.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interviewprepkit.dictionariesandhashmaps" />
-      <option name="MAIN_CLASS_NAME" value="interviewprepkit.dictionariesandhashmaps.FrequencyQueriesTest" />
-      <option name="METHOD_NAME" value="freqQueryTest(java.util.List,java.util.List)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RansomNoteTest.checkMagazineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewprepkit.dictionariesandhashmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interviewprepkit.dictionariesandhashmaps" />
-      <option name="MAIN_CLASS_NAME" value="interviewprepkit.dictionariesandhashmaps.RansomNoteTest" />
-      <option name="METHOD_NAME" value="checkMagazineTest([Ljava.lang.String;,[Ljava.lang.String;,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="strings" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest" />
+        <item itemvalue="JUnit.strings in CodeChallenges" />
+        <item itemvalue="JUnit.StringSplitTest.shouldPrintCorrectly2" />
+        <item itemvalue="JUnit.StringSplitTest.shouldPrintCorrectly" />
         <item itemvalue="JUnit.BubbleSortTest.countSwapsTest" />
-        <item itemvalue="JUnit.RansomNoteTest.checkMagazineTest" />
-        <item itemvalue="JUnit.FrequencyQueriesTest.freqQueryTest" />
-        <item itemvalue="JUnit.CountTripletsTest.countTripletsAttempt2Test" />
-        <item itemvalue="JUnit.CountTripletsTest.countTripletsPerformanceTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="987fea58-ad32-4b69-9246-c19c370fbe12" name="Default Changelist" comment="" />
@@ -168,8 +186,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580762605893</updated>
+      <workItem from="1597840419491" duration="3156000" />
+      <workItem from="1597924207413" duration="2071000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -180,36 +203,20 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="817" y="353" key="#Notifications" timestamp="1588584435461">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="817" y="353" key="#Notifications/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588584435461" />
-    <state x="195" y="66" width="1244" height="692" key="#Project_Structure" timestamp="1581439309885">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="195" y="66" width="1244" height="692" key="#Project_Structure/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1581439309885" />
-    <state x="74" y="73" width="1389" height="679" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589813778693">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="69" y="94" width="1303" height="657" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597844657360">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589466559987" />
     <state x="74" y="73" width="1389" height="679" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1589813778693" />
+    <state x="69" y="94" width="1303" height="657" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.797/-1920.-419.1920.1080@0.23.1440.797" timestamp="1597844657360" />
     <state x="660" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589363985915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="660" y="303" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589363985915" />
-    <state x="510" y="132" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1588584536128">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="510" y="132" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588584536128" />
     <state x="663" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1589466172131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="53" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589466172131" />
-    <state x="530" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584637246767" />
-    <state x="640" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588584218558">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588584218558" />
     <state x="597" y="429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589453925894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,85 +225,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="364" width="549" height="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589363992503" />
-    <state width="428" height="582" key="DebuggerActiveHint" timestamp="1585069918513">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="428" height="582" key="DebuggerActiveHint/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585069918513" />
-    <state x="669" y="230" width="530" height="605" key="FileChooserDialogImpl" timestamp="1588755056424">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="669" y="230" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588755056424" />
-    <state x="535" y="182" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1581443371044" />
-    <state x="535" y="182" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587161035150" />
-    <state width="1481" height="213" key="GridCell.Tab.0.bottom" timestamp="1589873999905">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="396" key="GridCell.Tab.0.bottom" timestamp="1597931089636">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1865" height="290" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589471561377" />
-    <state width="1481" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585071898180" />
     <state width="1481" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1080@0.0.1536.824" timestamp="1589873999905" />
     <state width="1481" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589813471598" />
-    <state width="1481" height="213" key="GridCell.Tab.0.center" timestamp="1589873999905">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="396" key="GridCell.Tab.0.bottom/0.23.1440.797/-1920.-419.1920.1080@0.23.1440.797" timestamp="1597845023655" />
+    <state width="1398" height="396" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1597931089636" />
+    <state width="1398" height="396" key="GridCell.Tab.0.bottom/0.23.1440.798/-1920.-419.1920.1080@0.23.1440.798" timestamp="1597854407723" />
+    <state width="1398" height="396" key="GridCell.Tab.0.center" timestamp="1597931089636">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1865" height="290" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589471561377" />
-    <state width="1481" height="246" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585071898180" />
     <state width="1481" height="213" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1080@0.0.1536.824" timestamp="1589873999905" />
     <state width="1481" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589813471597" />
-    <state width="1481" height="213" key="GridCell.Tab.0.left" timestamp="1589873999905">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="396" key="GridCell.Tab.0.center/0.23.1440.797/-1920.-419.1920.1080@0.23.1440.797" timestamp="1597845023655" />
+    <state width="1398" height="396" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1597931089636" />
+    <state width="1398" height="396" key="GridCell.Tab.0.center/0.23.1440.798/-1920.-419.1920.1080@0.23.1440.798" timestamp="1597854407723" />
+    <state width="1398" height="396" key="GridCell.Tab.0.left" timestamp="1597931089635">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1865" height="290" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589471561377" />
-    <state width="1481" height="246" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585071898179" />
     <state width="1481" height="213" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1080@0.0.1536.824" timestamp="1589873999905" />
     <state width="1481" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589813471596" />
-    <state width="1481" height="213" key="GridCell.Tab.0.right" timestamp="1589873999905">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="396" key="GridCell.Tab.0.left/0.23.1440.797/-1920.-419.1920.1080@0.23.1440.797" timestamp="1597845023654" />
+    <state width="1398" height="396" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1597931089635" />
+    <state width="1398" height="396" key="GridCell.Tab.0.left/0.23.1440.798/-1920.-419.1920.1080@0.23.1440.798" timestamp="1597854407712" />
+    <state width="1398" height="396" key="GridCell.Tab.0.right" timestamp="1597931089636">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1865" height="290" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589471561377" />
-    <state width="1481" height="246" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585071898180" />
     <state width="1481" height="213" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1080@0.0.1536.824" timestamp="1589873999905" />
     <state width="1481" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589813471597" />
-    <state width="1481" height="246" key="GridCell.Tab.1.bottom" timestamp="1585071898180">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1481" height="246" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585071898180" />
-    <state width="1481" height="246" key="GridCell.Tab.1.center" timestamp="1585071898180">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1481" height="246" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585071898180" />
-    <state width="1481" height="246" key="GridCell.Tab.1.left" timestamp="1585071898180">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1481" height="246" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585071898180" />
-    <state width="1481" height="246" key="GridCell.Tab.1.right" timestamp="1585071898180">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1481" height="246" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1585071898180" />
-    <state x="301" y="0" width="1139" height="824" key="SettingsEditor" timestamp="1588584470424">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="301" y="0" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588584470424" />
-    <state x="473" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1584718413605">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="473" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1581442947112" />
-    <state x="473" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584718413605" />
-    <state x="886" y="147" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589812691076">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="396" key="GridCell.Tab.0.right/0.23.1440.797/-1920.-419.1920.1080@0.23.1440.797" timestamp="1597845023655" />
+    <state width="1398" height="396" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1597931089636" />
+    <state width="1398" height="396" key="GridCell.Tab.0.right/0.23.1440.798/-1920.-419.1920.1080@0.23.1440.798" timestamp="1597854407723" />
+    <state x="831" y="165" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597930502100">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="1108" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589464700399" />
     <state x="886" y="147" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1589812691076" />
+    <state x="831" y="165" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.797/-1920.-419.1920.1080@0.23.1440.797" timestamp="1597840553330" />
+    <state x="831" y="165" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.797@0.23.1440.797" timestamp="1597930502100" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1597930489869">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.23.1440.797/-1920.-419.1920.1080@0.23.1440.797" timestamp="1597924250130" />
+    <state width="600" height="428" key="javadoc.popup/0.23.1440.797@0.23.1440.797" timestamp="1597930489869" />
     <state x="39" y="0" key="new project wizard" timestamp="1589873998093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="49" y="0" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589471852257" />
-    <state x="39" y="0" key="new project wizard/0.0.1536.824/-1920.0.1920.1080@0.0.1536.824" timestamp="1581442964410" />
     <state x="39" y="0" key="new project wizard/0.0.1536.824/0.-1080.1920.1080@0.0.1536.824" timestamp="1589873998093" />
-    <state x="39" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581952908130" />
     <state x="426" y="188" key="run.anything.popup" timestamp="1589813951772">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="533" y="237" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589211165372" />
     <state x="426" y="188" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589813951772" />
     <state x="431" y="34" width="840" height="789" key="search.everywhere.popup" timestamp="1589812488557">
       <screen x="0" y="0" width="1536" height="824" />
