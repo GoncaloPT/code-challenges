@@ -12,4 +12,13 @@ public class Palindrome {
         }
         return true;
     }
+
+    public boolean isPalindromeRecursive(String word) {
+        if(word.length() <= 1)
+            return true;
+        if(word.charAt(0) != word.charAt(word.length() - 1))
+            return false;
+        String nextWord = word.substring(1, word.length() - 1);
+        return isPalindromeRecursive(nextWord);
+    }
 }
