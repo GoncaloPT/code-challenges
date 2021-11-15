@@ -41,6 +41,7 @@ public class ServerWebSocketHandler extends TextWebSocketHandler {
         String request = message.getPayload();
         log.info("Server received: {}", request);
         String response = String.format("response from server to '%s'", HtmlUtils.htmlEscape(request));
+
         log.info("Server sends: {}", response);
         session.sendMessage(new TextMessage(response));
     }
